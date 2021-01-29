@@ -6,11 +6,11 @@ QtLib::QtLib()
 }
 int QtLib::Add(int a,int b)
 {
- return int(a+b);
+ return a+b;
 }
 int QtLib::Sub(int a,int b)
 {
-   return int(a-b);
+   return a-b;
 }
 
 QtLibCreate * QtLibCreateInstance(int version)
