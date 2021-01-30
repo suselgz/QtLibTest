@@ -11,8 +11,8 @@ MainWindow::MainWindow(QWidget *parent) :
 
 MainWindow::~MainWindow()
 {
-    delete ui;
     delete m_QtLib;
+     delete ui;
 }
 void MainWindow::on_pushButton_add_clicked()
 {
