@@ -14,6 +14,7 @@ class  QtLibCreate
 public:
     virtual int Add(int a,int b)=0;
     virtual int Sub(int a,int b)=0;
+    virtual int Mul(int a,int b)=0;
 };
 
 QTLIBSHARED_EXPORT QtLibCreate * QtLibCreateInstance(int version = KX_KXSLIP_CREATE_VERSION);

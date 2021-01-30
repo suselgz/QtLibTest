@@ -12,6 +12,9 @@ int QtLib::Sub(int a,int b)
 {
    return a-b;
 }
+int QtLib::Mul(int a,int b)
+{
+    return a*b;}
 
 QtLibCreate * QtLibCreateInstance(int version)
 {

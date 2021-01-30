@@ -26,3 +26,7 @@ void MainWindow::on_pushButton_sub_clicked()
 {
     ui->lineEdit_result->setText(QString::number(m_QtLib->Sub(ui->lineEdit_num1->text().toInt(),ui->lineEdit_num2->text().toInt())));
 }
+void MainWindow::on_pushButton_mul_clicked()
+{
+ ui->lineEdit_result->setText(QString::number(m_QtLib->Mul(ui->lineEdit_num1->text().toInt(),ui->lineEdit_num2->text().toInt())));
+}

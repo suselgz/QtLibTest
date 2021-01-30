@@ -2,7 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include "include/qtlibcreate.h"
+#include "QtLib/qtlibcreate.h"
 namespace Ui {
 class MainWindow;
 }
@@ -21,6 +21,7 @@ private:
 private slots:
     void on_pushButton_add_clicked();
     void on_pushButton_sub_clicked();
+    void on_pushButton_mul_clicked();
 };
 
 #endif // MAINWINDOW_H

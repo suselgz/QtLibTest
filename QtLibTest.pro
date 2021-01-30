@@ -31,7 +31,7 @@ SOURCES += \
 HEADERS += \
         mainwindow.h \
     include/qtlib.h \
-    include/qtlibcreate.h
+    QtLib/qtlibcreate.h
 
 FORMS += \
         mainwindow.ui
